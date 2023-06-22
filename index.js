@@ -45,7 +45,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3001;
 connect()
 connectapp.listen(port, () => {
   console.log(`Server listening on port ${port}`);
